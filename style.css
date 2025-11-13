@@ -3,11 +3,27 @@
     border: 2px solid blue;
     padding: 20px;
 }
+
 .item {
     border: 2px solid red;
     padding: 20px;
 }
+
 #box1 {
     justify-content: space-evenly;
+    background: rgb(161, 54, 158);
 }
+
+#box2, #box3, #box4 {
+    justify-content: center;
+}
+
+#box3 {
+    background: rgb(227, 160, 225);
+}
+
+#innerbox4 {
+    background: orchid;
+}
+
 
