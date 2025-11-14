@@ -1,12 +1,13 @@
 .flexbox {
     display: flex;
     border: 2px solid blue;
-    padding: 20px;
+    padding: 10px;
+    align-items: center;
 }
 
 .item {
     border: 2px solid red;
-    padding: 20px;
+    padding: 5px;
 }
 
 #box1 {
@@ -26,4 +27,12 @@
     background: orchid;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
 
