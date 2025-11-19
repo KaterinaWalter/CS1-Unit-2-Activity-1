@@ -1,11 +1,11 @@
 .flexbox {
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 10px;
 }
 
 .item {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 5px;
     min-height: 20vh;
 }
@@ -14,6 +14,7 @@
     justify-content: space-evenly;
     align-items: center;
     background: rgb(161, 54, 158);
+    color: lavender;
 }
 
 #box2, #box3, #box4 {
@@ -34,7 +35,41 @@
     margin: 0;
 }
 
-h2 {
-    text-align: center;
+body {
+    font-family: sans-serif;
+    background: lavender;
 }
 
+h1 {
+    text-shadow: 2px 2px 0px rgb(64, 11, 64);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 8px;
+}
+
+#box2 p {
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(161, 54, 158);
+}
+
+#box3, h2, h3 {
+    color: rgb(64, 11, 64);
+}
+
+button {
+    padding: 5px;
+    background: linear-gradient(orchid, plum);
+    border-radius: 5px;
+    border: 2px solid rgb(64, 11, 64);
+    color: rgb(64, 11, 64);
+}
+
+img {
+    border-radius: 5px;
+    border: 2px solid rgb(64, 11, 64);
+}
