@@ -73,3 +73,7 @@ img {
     border-radius: 5px;
     border: 2px solid rgb(64, 11, 64);
 }
+
+h1, h2 {
+    font-family: Impact;
+}
